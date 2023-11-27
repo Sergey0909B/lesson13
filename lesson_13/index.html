@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 13 Animation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+              <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item menu-item--arrow">
+                        <a href="#" class="menu-link">Практика</a>
+                    </li>
+                    <li class="menu-item menu-item--arrow">
+                        <a href="#" class="menu-link">Fliper</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">This is Caaar</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="practica">
+                    <h1 class="practica-title">2D Transform</h1>
+                    <div class="practica-cards__top">
+                        <div class="practica-card card">
+                            <div class="card-transform">
+                                <h2 class="card-title">Translate</h2>
+                                <h3 class="card-subtitle">transform: translate(15px, 15px);</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="practica-card card">
+                            <div class="card-scale">
+                                <h2 class="card-title">Scale</h2>
+                                <h3 class="card-subtitle">transform: scale(0.8);</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="practica-card card">
+                            <div class="card-rotate">
+                                <h2 class="card-title">Rotate (n + deg)
+                                </h2>
+                                <h3 class="card-subtitle">transform: rotate(-45deg);</h3>
+                            </div>
+                            
+                        </div>
+                      
+                    </div>
+                    <div class="practica-cards__bottom">
+                        <div class="practica-card card">
+                            <div class="card-scew">
+                                <h2 class="card-title">Skew (x + deg, y + deg)
+                                </h2>
+                                <h3 class="card-subtitle"> transform: skew(15deg,5deg);</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="practica-card card">
+                            <div class="card-origin">
+                                <h2 class="card-title">Transform-origin</h2>
+                                <h3 class="card-subtitle">transform-origin: 0 0;</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="practica-card card">
+                            <div class="card-matrix">
+                                <h2 class="card-title">Transform-matrix</h2>
+                                <h3 class="card-subtitle">(0.5, 0.1, 0.1, 0.5, 10, 15)</h3>
+                            </div>
+                            
+                        </div>
+                    </div>
+                        <h2 class="practica-title">3D Transform</h2>
+                        <div class="transform-cards">
+                            <div class="transform-card__top">
+                                <div class="transform-card__block1">
+                                    <div class="block-card">
+                                        <div class="block-card__title">Perspective</div>
+                                        <div class="block-card__subtitle">transform: rotateX(45deg);</div>
+                                    </div>
+                                </div>
+                                <div class="transform-card__block2">
+                                    <div class="block-card2">
+                                        <div class="block-card__title">Rotate 3D</div>
+                                        <div class="block-card__subtitle">    transform: rotate3d(1, 1, 1, 45deg);</div>
+                                    </div>
+                                </div>
+                                <div class="transform-card__block3">
+                                    <div class="block-card3">
+                                        <div class="block-card__title">Transform-style</div>
+                                        <div class="block-card__subtitle">      transform: rotateY(40deg);</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip">
+                            <div class="flip__title">FLIPER</div>
+                                <div class="flip__body">
+                                    <div class="flip__front">
+                                        <div class="flip__front-text">Різниця між 2D і 3D</div>
+                                        <img src="img/mario.jpg" alt="mario">
+                                    </div>
+                                    <div class="flip__back flip__back-text">
+                                        <div class="flip__back-text">
+                                            <p>Термін 2D і 3D використовується для позначення розмірів. Вимір - це "будь-яка вимірювана просторова протяжність, така як довжина, ширина, висота, глибина, ширина, товщина і т.д." По суті, розмірність вказує на будь-яку і всі сторони об'єкта, наприклад, висоту і ширину, і дозволяє нам вимірювати їх.</p>
+                                            <p>Термін 2D - двовимірний, а 3D - тривимірний. 2D являє собою об'єкт у двох вимірах, а 3D - у трьох вимірах. Краще думати про це на прикладі. Автомобіль має три розміри. Насправді все в нашій реальності є тривимірним. Він має довжину, ширину і висоту; однак фотографія автомобіля або креслення автомобіля має лише два виміри. На фотографії або малюнку можна побачити і виміряти тільки довжину і висоту, тоді як глибина або ширина не відрізняються.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                         
+                        </div>
+                </div>
+                <div class="car-page">
+                    <div class="car-page__container">
+                        <h3 class="car-page__title">Batman Car</h3>
+                        <div class="car-body">
+                            <div class="car-roof"></div>
+                            <div class="car-carcas">
+                                <img src="img/betman.png" alt="betman">
+                            </div>
+                            <div class="car-window">
+                                <div class="car-window__right"></div>
+                            </div>
+                            <div class="car-door door">
+                                <div class="door-left"></div>
+                                <div class="door-item"></div>
+                            </div>
+                            <div class="car-headlight">
+                                <div class="car-headlight__left"></div>
+                                <div class="car-headlight__right"></div>
+                            </div>
+                            <div class="car-wheel">
+                                <div class="car-wheel__left">
+                                    <div class="car-wheel__radius"></div>
+                                </div>
+                                <div class="car-wheel__right">
+                                    <div class="car-wheel__radius-right"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__text">
+                <p>Я Footer</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
